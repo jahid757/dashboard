@@ -1,6 +1,6 @@
 import React from 'react';
 import './header.css'
-import TopBar from '../../components/Header/Topbar';
+import TopBar from '../../components/Header/TopBar';
 import TitleBar from '../../components/Header/TitleBar';
 import FilterMenu from '../../components/Header/FilterMenu';
 

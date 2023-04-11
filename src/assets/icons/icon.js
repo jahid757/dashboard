@@ -22,6 +22,7 @@ import wallet from './wallet.png'
 import ethereum from './ethereum.png'
 import plus from './plus.png'
 import search from './search.png'
+import agora from './agora.png'
 
 export const icons = {
   home,
@@ -47,5 +48,6 @@ export const icons = {
   wallet,
   ethereum,
   plus,
-  search
+  search,
+  agora
 };
