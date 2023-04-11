@@ -1,8 +1,8 @@
 import React from 'react';
 import './header.css'
-import TopBar from '../../components/Header/TopBar';
-import TitleBar from '../../components/Header/TitleBar';
-import FilterMenu from '../../components/Header/FilterMenu';
+import TopBar from '../../components/header/TopBar';
+import TitleBar from '../../components/header/TitleBar';
+import FilterMenu from '../../components/header/FilterMenu';
 
 
 const Header = () => {
