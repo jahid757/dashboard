@@ -16,13 +16,18 @@ import moon_dark from "./moon-dark.png";
 import sun_light from "./sun-light.png";
 import sun_dark from "./sun-dark.png";
 import uk_flag from "./uk-flag.png";
-import home_gray from './home_gray.png';
-import down_arrow from './down-arrow.png';
-import wallet from './wallet.png'
-import ethereum from './ethereum.png'
-import plus from './plus.png'
-import search from './search.png'
-import agora from './agora.png'
+import home_gray from "./home_gray.png";
+import down_arrow from "./down-arrow.png";
+import wallet from "./wallet.png";
+import ethereum from "./ethereum.png";
+import plus from "./plus.png";
+import search from "./search.png";
+import agora from "./agora.png";
+import parent_etn_network from "./eth_network.png";
+import lock from "./lock.png";
+import bell from "./bell.png";
+import love from "./love.png";
+import ever_earn from './ever_earn.png'
 
 export const icons = {
   home,
@@ -49,5 +54,10 @@ export const icons = {
   ethereum,
   plus,
   search,
-  agora
+  agora,
+  parent_etn_network,
+  lock,
+  love,
+  bell,
+  ever_earn
 };

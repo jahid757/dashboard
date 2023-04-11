@@ -3,7 +3,7 @@ import Sidebar from '../../layouts/Sidebar/Sidebar';
 
 const Container = ({children}) => {
     return (
-        <div className="container-fluid">
+        <div className="container">
         <Sidebar selected={1} />
         <main className="main_content">
           {
