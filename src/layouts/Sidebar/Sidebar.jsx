@@ -6,7 +6,7 @@ import sidebarItem from '../../data/SidebarData';
 import Item from '../../components/sidebar/Item';
 import { images } from '../../assets/images/images';
 import { Link } from 'react-router-dom';
-import Follow from '../../components/sidebar/follow';
+import Follow from '../../components/sidebar/Follow';
 import Bottom from '../../components/sidebar/Bottom';
 
 
