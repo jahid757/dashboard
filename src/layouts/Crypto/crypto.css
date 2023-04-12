@@ -6,14 +6,15 @@
     background-color: #E5F6F6;
     color: #41B7B7;
     align-items: center;
-    padding: 4px 7px;
-    border-radius: 1px;
 }
 .status_text{
     font-size: 11px;
     font-weight: 500;
+    padding: 4px 7px;
+    border-radius: 1px;
+    text-align: center;
 }
-.crypto_head{
+.crypto_head,.crypto_footer{
     background:#FAF9FB;
     padding: 15px;
 }
@@ -21,10 +22,7 @@
     padding: 15px;
     background:#fff
 }
-.crypto_footer{
-    background:#FAF9FB;
-    padding: 15px;    
-}
+
 .mb-1 {
     margin-bottom: 0.15rem!important;
 }
@@ -37,6 +35,8 @@
     right: -4px;
     background:#fff;
     padding: 7px 5px;
+    width: 24px;
+height: 24px;
 }
 .network_value{
     color: #706781;
@@ -116,4 +116,16 @@ font-size: 16px;
     text-transform: capitalize;
     color: #AE51E8;
     background: rgba(174, 81, 232, 0.1);
+}
+.status_ended{
+    color: #E9BD3A;
+    background-color: #FBF4DF;
+}
+.status_canceled{
+    color: #746C84;
+    background: rgba(116, 108, 132, 0.1);
+}
+.status_live{
+    color: #FD4A4A;
+    background: rgba(253, 74, 74, 0.1);
 }

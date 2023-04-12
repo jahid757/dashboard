@@ -7,16 +7,18 @@ import AppRoutes from './routes/Routes'
 export const ThemeContext = createContext()
 
 function App() {
-  const [theme,setTheme] = useState('light');
+  const [context,setContext] = useState({
+    theme: 'light'
+  });
 
   // toggle website theme
   useEffect(() => {
     document.body.className = ''
-    document.body.classList.add(theme)
-  },[theme])
+    document.body.classList.add(context.theme)
+  },[context.theme])
 
   return (
-    <ThemeContext.Provider value={[theme,setTheme]}>
+    <ThemeContext.Provider value={[context,setContext]}>
       <AppRoutes/>
     </ThemeContext.Provider>
   )

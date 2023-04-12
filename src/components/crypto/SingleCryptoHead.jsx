@@ -11,7 +11,7 @@ const SingleCryptoHead = ({item}) => {
                     <img className='network_name_icon' src={item.network_image} alt="network icon" />
                 </div>
                 <div className=''>
-                    <p className={`text-capitalize status_text status_${item.status}`}>{item.stacking_poll ? <img src={icons.lock} className='mb-1'/> : ''} {item.status}</p>
+                    <p className={`text-capitalize status_text status_${item.status}`}>{item.stacking_poll ? <img  src={icons.lock} className='mb-1 me-1'/> : ''} {item.status === 'live' ? <img className="me-1" src={icons.red_dot}/> : ''} {item.status}</p>
                     { 
                         item.verify && item.verify.length > 0  ? 
                         <div className="d-flex align-items-center gap-2 position-absolute xy-center-align">

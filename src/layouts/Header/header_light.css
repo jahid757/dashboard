@@ -1,0 +1,33 @@
+body.light .header {
+  background: linear-gradient(0deg, #faf9fb 0%, #f3f2f4 100%);
+}
+body.light .nav_link {
+  color: #a7a0b6;
+}
+body.light .nav_link_active {
+  color: #706781;
+}
+body.light img.ethereum {
+  background: #fff;
+}
+body.light .wallet {
+  background-color: #faf9fb;
+}
+
+body.light .filter_btn_wrap {
+  background: #eae9ed;
+}
+body.light .filter_btn_wrap button {
+  color: #44414c;
+}
+body.light .filter_btn_wrap button.active {
+  background-color: #fff;
+}
+body.light .filter_menu ul li {
+  color: #706781;
+}
+
+body.light .filter_menu ul li.active {
+  color: #9360ff;
+  border-bottom-color: #9360ff;
+}

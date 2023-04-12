@@ -13,6 +13,7 @@ const SingleCryptoFooter = ({item}) => {
             {
                 item.love ? <button className='love'><img src={icons.love} alt="love icon" /></button> : ''
             }
+            
                 <button className='notify'><img src={icons.bell} alt="bell" /></button>
                 <button className='view'>View</button>
             </div>

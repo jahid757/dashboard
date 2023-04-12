@@ -28,6 +28,8 @@ import lock from "./lock.png";
 import bell from "./bell.png";
 import love from "./love.png";
 import ever_earn from './ever_earn.png'
+import red_dot from './red_dot.png'
+import ethereum_light from './ethereum-square.png'
 
 export const icons = {
   home,
@@ -59,5 +61,7 @@ export const icons = {
   lock,
   love,
   bell,
-  ever_earn
+  ever_earn,
+  red_dot,
+  ethereum_light
 };

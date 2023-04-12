@@ -7,3 +7,6 @@
 .progress_value{
     background-color: #9360FF;
 }
+body.dark .progress{
+    background-color: #262528;
+}
