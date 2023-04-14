@@ -12,6 +12,7 @@ body.light img.ethereum {
 }
 body.light .wallet {
   background-color: #faf9fb;
+  box-shadow: 0px 2.12866px 10.0172px rgba(22, 6, 172, 0.02), 0px 1.13052px 5.32008px rgba(22, 6, 172, 0.0161557), 0px 0.470434px 2.21381px rgba(22, 6, 172, 0.0112458);
 }
 
 body.light .filter_btn_wrap {

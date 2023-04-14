@@ -39,4 +39,9 @@ body.dark .header {
     background-color: #37353B !important;
   }
 
-  
+  body.dark .header .bg-shadow{
+    background-color: #2D2C30;
+  }
+  body.dark .header .font-18{
+    color: #F3F2F5;
+  }

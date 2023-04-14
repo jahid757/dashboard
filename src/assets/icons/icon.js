@@ -30,6 +30,9 @@ import love from "./love.png";
 import ever_earn from './ever_earn.png'
 import red_dot from './red_dot.png'
 import ethereum_light from './ethereum-square.png'
+import menu_icon from './menu.png'
+import cross_icon from './close-line.png'
+import filter_icon from './filter.png'
 
 export const icons = {
   home,
@@ -63,5 +66,8 @@ export const icons = {
   bell,
   ever_earn,
   red_dot,
-  ethereum_light
+  ethereum_light,
+  menu_icon,
+  cross_icon,
+  filter_icon
 };
