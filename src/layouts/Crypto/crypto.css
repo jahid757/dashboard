@@ -76,6 +76,9 @@ font-size: 16px;
     background-color: rgba(147, 96, 255, 0.1);
     color: #9360FF;
 }
+.crypto_footer_btn button.view a{
+    color: #9360ff;
+}
 .stacking_pool{
     position: relative;
     font-weight: 500;

@@ -74,5 +74,15 @@ button{
   background-color: #FAF9FB;
   box-shadow: 0px 2.12866px 10.0172px rgba(22, 6, 172, 0.02), 0px 1.13052px 5.32008px rgba(22, 6, 172, 0.0161557), 0px 0.470434px 2.21381px rgba(22, 6, 172, 0.0112458);
 }
-
+.font-13{
+  font-size: 13px;
+  color: #44414C;
+  font-weight: 500;
+}
 /* #EBECF0 */
+.w-35{
+  width: 35%;
+}
+.last-item-no-border:last-child{
+  border-bottom: none !important;
+}

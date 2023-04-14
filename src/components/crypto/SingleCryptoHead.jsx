@@ -1,15 +1,13 @@
 import React from 'react';
 import { icons } from '../../assets/icons/icon';
+import NetworkLogo from './NetworkLogo';
 
 const SingleCryptoHead = ({item}) => {
     const {name} = item;
     return (
         <div className='crypto_head'>
             <div className="d-flex align-items-start justify-content-between mb-10 position-relative">
-                <div className="network_icon">
-                    <img src={item.image} alt="icon" />
-                    <img className='network_name_icon' src={item.network_image} alt="network icon" />
-                </div>
+                <NetworkLogo item={item}/>
                 <div className=''>
                     <p className={`text-capitalize status_text status_${item.status}`}>{item.stacking_poll ? <img  src={icons.lock} className='mb-1 me-1'/> : ''} {item.status === 'live' ? <img className="me-1" src={icons.red_dot}/> : ''} {item.status}</p>
                     { 

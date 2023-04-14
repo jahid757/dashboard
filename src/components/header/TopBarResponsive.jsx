@@ -6,11 +6,11 @@ import { icons } from "../../assets/icons/icon";
 import { Link } from "react-router-dom";
 import { images } from "../../assets/images/images";
 import { ThemeContext } from "../../App";
-import useWindowWidth from "../../hooks/useWindowWidth";
+// import useWindowWidth from "../../hooks/useWindowWidth";
 
 const TopBarResponsive = () => {
     const [context,setContext] = useContext(ThemeContext);
-    const onSmallScreen = useWindowWidth(767);
+    // const onSmallScreen = useWindowWidth(767);
   return (
     <div className="d-flex align-items-center justify-content-between content pe-0 bg-shadow mb-3">
       <div className="d-flex align-items-center gap-2">
@@ -23,9 +23,7 @@ const TopBarResponsive = () => {
       <div className="d-flex align-items-center">
         <Ethereum />
         <Wallet />
-        {
-            onSmallScreen ? '' : <CreateButton marginLeft={false} />
-        }
+          <CreateButton marginLeft={false} />
       </div>
     </div>
   );

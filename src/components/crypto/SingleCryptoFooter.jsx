@@ -1,6 +1,7 @@
 import React from 'react';
 import Countdown from 'react-countdown';
 import { icons } from '../../assets/icons/icon';
+import { Link } from 'react-router-dom';
 
 const SingleCryptoFooter = ({item}) => {
     return (
@@ -15,7 +16,7 @@ const SingleCryptoFooter = ({item}) => {
             }
             
                 <button className='notify'><img src={icons.bell} alt="bell" /></button>
-                <button className='view'>View</button>
+                <Link to={`/launchpad-view/${item.id}`}><button className='view'>View</button></Link>
             </div>
         </div>
     );

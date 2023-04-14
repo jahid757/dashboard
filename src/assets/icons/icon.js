@@ -27,12 +27,15 @@ import parent_etn_network from "./eth_network.png";
 import lock from "./lock.png";
 import bell from "./bell.png";
 import love from "./love.png";
-import ever_earn from './ever_earn.png'
-import red_dot from './red_dot.png'
-import ethereum_light from './ethereum-square.png'
-import menu_icon from './menu.png'
-import cross_icon from './close-line.png'
-import filter_icon from './filter.png'
+import ever_earn from "./ever_earn.png";
+import red_dot from "./red_dot.png";
+import ethereum_light from "./ethereum-square.png";
+import menu_icon from "./menu.png";
+import cross_icon from "./close-line.png";
+import filter_icon from "./filter.png";
+import global from "./globe.png";
+import play from "./play.png";
+import cancel from "./cancel.png";
 
 export const icons = {
   home,
@@ -69,5 +72,8 @@ export const icons = {
   ethereum_light,
   menu_icon,
   cross_icon,
-  filter_icon
+  filter_icon,
+  global,
+  play,
+  cancel,
 };

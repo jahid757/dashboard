@@ -22,7 +22,7 @@ const Sidebar = ({selected}) => {
     const [context,setContext] = useContext(ThemeContext);
     const onSmallScreen = useWindowWidth(1200);
     return (
-        <div className={`${context.navBarOpen && onSmallScreen ? 'shadow-overlay' : ''}`}>
+        <div onClick={() => console.log('')} className={`${context.navBarOpen && onSmallScreen ? 'shadow-overlay' : ''}`}>
         <div className={`left_side_bar ${context.navBarOpen && onSmallScreen ? 'active':''}`}>
             
 

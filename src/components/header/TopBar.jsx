@@ -6,7 +6,7 @@ import CreateButton from './CreateButton';
 
 const TopBar = () => {
     return (
-        <div className="d-flex align-items-center content justify-content-between pt-3">
+        <div className="d-flex align-items-center content justify-content-between pt-3 ps-0">
             <Navigation route={'Launchpad'}/>
             <div className='d-flex align-items-center'>
                 <Ethereum/>

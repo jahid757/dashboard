@@ -41,4 +41,20 @@
     .p-xy-16{
         padding: 16px;
     }
+    .title{
+      font-size: 24px !important;
+    }
+    .select-type .css-b62m3t-container{
+      width: 100%;
+    }
+    .select-type .css-13cymwt-control, .css-t3ipsp-control{
+      background-color:#fff !important
+    }
+    .position_bottom{
+      position: fixed;
+      bottom: 10px;
+      right: 10px;
+      z-index:10;
+      padding: 20px !important;
+    }
 }
