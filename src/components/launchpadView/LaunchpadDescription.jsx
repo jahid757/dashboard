@@ -1,6 +1,9 @@
 import React from "react";
 import VideoPlayer from "../videoPlayer/VideoPlayer";
 import LaunchpadValue from "./LaunchpadValue";
+import Chart from "../chart/Chart";
+import { images } from "../../assets/images/images";
+import LaunchpadComment from "./LaunchpadComment";
 
 const LaunchpadDescription = ({ item }) => {
   return (
@@ -14,6 +17,14 @@ const LaunchpadDescription = ({ item }) => {
           );
         })}
       </div>
+
+      <div className="token_chart">
+        <h4>Token Metrics</h4>
+        {/* <Chart/> */}
+        <img className="my-4" src={images.chart} alt="" />
+        <LaunchpadComment/>
+      </div>
+
     </div>
   );
 };

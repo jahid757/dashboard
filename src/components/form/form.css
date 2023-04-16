@@ -65,3 +65,25 @@
     background-color: #FAF9FB !important;
     margin-bottom: 0 !important;
 }
+.subscribe .input_search{
+    padding-left: 10px;
+    padding-right: 45px;
+}
+.subscribe img{
+    right: 0px;
+    background-color: #9360ff;
+    left:auto;
+    padding:12px
+}
+input.only{
+    width: 100%;
+    outline: none;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #dee2e6;
+    background: #eae9ed;
+    box-shadow: inset 0px 2px 2px rgba(0, 0, 0, 0.02);
+}
+.login_with img{
+    width: 30px;
+}

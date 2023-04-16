@@ -1,3 +1,4 @@
 import logo from './xcel_logo.png'
 import thumbnail from './thumbnail.png'
-export const images = {logo,thumbnail}
+import chart from './chart.png'
+export const images = {logo,thumbnail,chart}

@@ -57,4 +57,34 @@
       z-index:10;
       padding: 20px !important;
     }
+    .disclaimer {
+      position: fixed !important;
+      width: 100%;
+      left: 0;
+      bottom: 0
+    }
+    .disclaimer .mx-large-4{
+      margin: auto 20px;
+    }
+    .mb-responsive{
+      margin-bottom: 138px;
+    }
+    .mx-width-rs .mx-width{
+      max-width: 335px;
+    }
+}
+
+@media (max-width: 575.98px) {
+  .mx-width-rs .mx-width{
+    max-width: 100%;
+  }
+  .mb-responsive {
+    margin-bottom: 170px;
+}
+}
+@media (max-width: 400px) {
+  
+  .mb-responsive {
+    margin-bottom: 290px;
+}
 }

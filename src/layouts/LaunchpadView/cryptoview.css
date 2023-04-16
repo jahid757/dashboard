@@ -6,3 +6,11 @@
     width:72px;
     height: 72px;
 }
+.action_head p.font-14{
+    color:#A7A0B6;
+}
+.action_head img{
+    width: 56px;
+    height: 56px;
+    margin-bottom: 20px;
+}

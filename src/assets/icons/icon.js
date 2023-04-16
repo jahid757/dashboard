@@ -36,6 +36,12 @@ import filter_icon from "./filter.png";
 import global from "./globe.png";
 import play from "./play.png";
 import cancel from "./cancel.png";
+import mail from './mail.png'
+import comment from './comment.png'
+import profile from './profile.png'
+import add_friend from './add_friend.png'
+import thumbs_up from './thumbs_up.png'
+import thumbs_down from './thumbs_down.png'
 
 export const icons = {
   home,
@@ -76,4 +82,10 @@ export const icons = {
   global,
   play,
   cancel,
+  mail,
+  comment,
+  profile,
+  add_friend,
+  thumbs_up,
+  thumbs_down
 };
